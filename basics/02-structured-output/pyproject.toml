@@ -1,0 +1,14 @@
+[project]
+name = "02-structured-output"
+version = "0.1.0"
+description = "Pull a structured expense out of a free-text note"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "pydantic>=2.14.2",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.ruff.format]
+quote-style = "preserve"
