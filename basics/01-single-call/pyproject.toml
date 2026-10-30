@@ -1,0 +1,13 @@
+[project]
+name = "01-single-call"
+version = "0.1.0"
+description = "Send one prompt to Claude and print tokens and cost"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.ruff.format]
+quote-style = "preserve"
