@@ -1,0 +1,19 @@
+[project]
+name = "05-multiple-tools"
+version = "0.1.0"
+description = "Illustrating multiple tools usage"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "pydantic>=2.14.2",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.ruff.format]
+quote-style = "preserve"
